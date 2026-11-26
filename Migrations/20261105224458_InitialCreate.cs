@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Jelajah.Migrations
+namespace TA_sem3.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration
