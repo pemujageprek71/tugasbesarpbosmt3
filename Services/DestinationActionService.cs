@@ -1,9 +1,9 @@
 
-using GEPREK71.Models;
-using GEPREK71.Services.Base;
-using GEPREK71.Services.Interfaces;
+using TA_sem3.Models;
+using TA_sem3.Services.Base;
+using TA_sem3.Services.Interfaces;
 
-namespace GEPREK71.Services
+namespace TA_sem3.Services
 {
     public class DestinationActionService
         : ContentActionBase, IDestinationAction

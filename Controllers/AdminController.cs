@@ -1,10 +1,10 @@
-﻿using Jelajah.Data;
-using Jelajah.Models;
+﻿using TA_sem3.Data;
+using TA_sem3.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jelajah.Controllers;
+namespace TA_sem3.Controllers;
 
 [Authorize(Roles = "Admin")]
 public class AdminController : Controller

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Jelajah.Controllers;
+namespace TA_sem3.Controllers;
 
 public class AccountController : Controller
 {

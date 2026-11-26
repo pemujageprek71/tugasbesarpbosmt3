@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using TA_sem3.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;

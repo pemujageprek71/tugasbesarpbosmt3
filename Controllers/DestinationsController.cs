@@ -1,8 +1,8 @@
-﻿using Jelajah.Data;
+﻿using TA_sem3.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jelajah.Controllers;
+namespace TA_sem3.Controllers;
 
 public class DestinationsController : Controller
 {

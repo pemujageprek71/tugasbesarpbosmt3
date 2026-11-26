@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
-namespace Jelajah.Models;
+namespace TA_sem3.Models;
 
 public class Destination
 {

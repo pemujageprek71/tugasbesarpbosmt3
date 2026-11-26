@@ -1,5 +1,6 @@
+using TA_sem3.Models;
 
-namespace GEPREK71.Services.Generic
+namespace TA_sem3.Services.Generic
 {
     // Hasil pagination generic
     public class PageResult<T>

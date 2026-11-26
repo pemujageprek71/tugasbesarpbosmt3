@@ -1,8 +1,8 @@
-﻿using Jelajah.Models;
+﻿using TA_sem3.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace Jelajah.Data;
+namespace TA_sem3.Data;
 
 public static class SeedData
 {

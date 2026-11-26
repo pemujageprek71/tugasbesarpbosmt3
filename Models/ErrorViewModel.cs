@@ -1,4 +1,4 @@
-namespace Jelajah.Models;
+namespace TA_sem3.Models;
 
 public class ErrorViewModel
 {

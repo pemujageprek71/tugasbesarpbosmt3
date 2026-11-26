@@ -1,11 +1,15 @@
 
-using GEPREK71.Models;
+using System;
+using TA_sem3.Models;
 
-namespace GEPREK71.Services
+namespace TA_sem3.Services
 {
     public class DestinationPropertyService
     {
+        // =========================
         // GET METHOD
+        // =========================
+
         public string GetDestinationName(Destination destination)
         {
             return destination.Name;
@@ -21,13 +25,18 @@ namespace GEPREK71.Services
             return destination.IsActive;
         }
 
+        // =========================
         // SET METHOD
+        // =========================
+
         public void SetDestinationName(
             Destination destination, string name)
         {
             if (string.IsNullOrWhiteSpace(name))
+            {
                 throw new ArgumentException(
                     "Nama destinasi tidak boleh kosong.");
+            }
 
             destination.Name = name.Trim();
         }
@@ -36,8 +45,10 @@ namespace GEPREK71.Services
             Destination destination, string region)
         {
             if (string.IsNullOrWhiteSpace(region))
+            {
                 throw new ArgumentException(
                     "Wilayah tidak boleh kosong.");
+            }
 
             destination.Region = region.Trim();
         }

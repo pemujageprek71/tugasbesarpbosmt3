@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
-namespace Jelajah.Models;
+namespace TA_sem3.Models;
 
 // Tabel penghubung many-to-many Destination <-> Facility
 public class DestinationFacility

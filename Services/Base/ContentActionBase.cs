@@ -1,7 +1,6 @@
+using TA_sem3.Models;
 
-using GEPREK71.Models;
-
-namespace GEPREK71.Services.Base
+namespace TA_sem3.Services.Base
 {
     public abstract class ContentActionBase
     {

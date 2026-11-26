@@ -1,7 +1,7 @@
 
-using GEPREK71.Models;
+using TA_sem3.Models;
 
-namespace GEPREK71.Services.Filters
+namespace TA_sem3.Services.Filters
 {
     public class DestinationFilterDictionary
     {
